@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,10 +18,22 @@
 		4B2D15A72DFCB3CB0068E5E4 /* JoinPartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D15942DFCB3CB0068E5E4 /* JoinPartyView.swift */; };
 		4B2D15A82DFCB3CB0068E5E4 /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D15952DFCB3CB0068E5E4 /* LeaderBoardView.swift */; };
 		4B2D15A92DFCB3CB0068E5E4 /* PartyLobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D15962DFCB3CB0068E5E4 /* PartyLobbyView.swift */; };
+		4B2D15AA2DFCB3CB0068E5E4 /* BaseballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D15982DFCB3CB0068E5E4 /* BaseballView.swift */; };
+		4B2D15AB2DFCB3CB0068E5E4 /* BasketballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D15992DFCB3CB0068E5E4 /* BasketballView.swift */; };
+		4B2D15AC2DFCB3CB0068E5E4 /* FootballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D159A2DFCB3CB0068E5E4 /* FootballView.swift */; };
+		4B2D15AD2DFCB3CB0068E5E4 /* HockeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D159B2DFCB3CB0068E5E4 /* HockeyView.swift */; };
+		4B2D15AE2DFCB3CB0068E5E4 /* SoccerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D159C2DFCB3CB0068E5E4 /* SoccerView.swift */; };
+		4B2D15B82DFCB3CE0068E5E4 /* Baseball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D15AF2DFCB3CE0068E5E4 /* Baseball.swift */; };
+		4B2D15B92DFCB3CE0068E5E4 /* Basketball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D15B02DFCB3CE0068E5E4 /* Basketball.swift */; };
+		4B2D15BA2DFCB3CE0068E5E4 /* Emails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D15B12DFCB3CE0068E5E4 /* Emails.swift */; };
+		4B2D15BB2DFCB3CE0068E5E4 /* Hockey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D15B22DFCB3CE0068E5E4 /* Hockey.swift */; };
+		4B2D15BE2DFCB3CE0068E5E4 /* Soccer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D15B52DFCB3CE0068E5E4 /* Soccer.swift */; };
 		4B47AAFC2DF10F8A00DFB76F /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4B47AAFB2DF10F8A00DFB76F /* OpenAISwift */; };
 		4B56EEEE2E15B2140088E513 /* HostBetGenerationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56EEED2E15B20D0088E513 /* HostBetGenerationView.swift */; };
 		4B56EEF22E15ECBA0088E513 /* PartyChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56EEF12E15ECBA0088E513 /* PartyChatView.swift */; };
 		4B56EEF52E1B50DB0088E513 /* DirectMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56EEF42E1B50DB0088E513 /* DirectMessageView.swift */; };
+		4B56EEFB2E1C99D80088E513 /* PoliticsBetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56EEFA2E1C99D80088E513 /* PoliticsBetView.swift */; };
+		4B56EEFD2E1C99E20088E513 /* LifeEventsBetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56EEFC2E1C99E20088E513 /* LifeEventsBetView.swift */; };
 		4B56EF012E1C9F8F0088E513 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56EF002E1C9F8F0088E513 /* SidebarView.swift */; };
 		4B56EF032E1C9F960088E513 /* RootWithSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56EF022E1C9F960088E513 /* RootWithSidebarView.swift */; };
 		4B5D5CE12E0CB5A4000B05AC /* SupabaseEnvironmentKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D5CDF2E0CB5A4000B05AC /* SupabaseEnvironmentKey.swift */; };
@@ -35,12 +47,12 @@
 		4B6AE10E2E05CF5500656DF3 /* InviteFriendsToPartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE10D2E05CF5500656DF3 /* InviteFriendsToPartyView.swift */; };
 		4B6AE1102E05CF5C00656DF3 /* InviteOthersToPartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE10F2E05CF5C00656DF3 /* InviteOthersToPartyView.swift */; };
 		4B6AE1122E05CF6200656DF3 /* PartyInvitesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1112E05CF6200656DF3 /* PartyInvitesView.swift */; };
-		4B6EE7082E2EDBAC00A82153 /* ContestBetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6EE7072E2EDBAC00A82153 /* ContestBetView.swift */; };
-		4B6EE70A2E2EDBB300A82153 /* NormalBetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6EE7092E2EDBB300A82153 /* NormalBetView.swift */; };
-		4B6EE70C2E2EDBBB00A82153 /* TimedBetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6EE70B2E2EDBBB00A82153 /* TimedBetView.swift */; };
 		4B7C5B842DFFB05400AE8600 /* BetTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C5B832DFFB05400AE8600 /* BetTypeView.swift */; };
+		4B7C5B862DFFB50000AE8600 /* CustomBetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C5B852DFFB50000AE8600 /* CustomBetView.swift */; };
+		4BDD17862E01F13F00CD117D /* SportSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDD17852E01F13F00CD117D /* SportSelectionView.swift */; };
 		4BDD178A2E01F37200CD117D /* MyPartiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDD17892E01F37200CD117D /* MyPartiesView.swift */; };
 		4BDD178C2E01F3F400CD117D /* LoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDD178B2E01F3F400CD117D /* LoginSignupView.swift */; };
+		4BDD17902E01F53F00CD117D /* GameEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDD178F2E01F53F00CD117D /* GameEventView.swift */; };
 		4BDD17922E01F65400CD117D /* PartyDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDD17912E01F65300CD117D /* PartyDetailsView.swift */; };
 		4BDD17972E01FB6B00CD117D /* PartyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDD17962E01FB6B00CD117D /* PartyModels.swift */; };
 		4BDD17992E01FB7400CD117D /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDD17982E01FB7400CD117D /* UserModels.swift */; };
@@ -48,6 +60,10 @@
 		4BF3C8842E07AC2D00872BEC /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 4BF3C8832E07AC2D00872BEC /* PostgREST */; };
 		4BF3C8862E07AC2D00872BEC /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 4BF3C8852E07AC2D00872BEC /* Storage */; };
 		4BF3C8882E07AC2D00872BEC /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4BF3C8872E07AC2D00872BEC /* Supabase */; };
+		4BF3C8922E08C73100872BEC /* LoggedInPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3C8902E08C73100872BEC /* LoggedInPath.swift */; };
+		4BF3C8942E08C8D400872BEC /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3C8932E08C8D400872BEC /* Sport.swift */; };
+		4BF3C8962E08C95C00872BEC /* BetTypePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3C8952E08C95C00872BEC /* BetTypePath.swift */; };
+		4BF3C8982E0A2BEA00872BEC /* BetFlowPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3C8972E0A2BEA00872BEC /* BetFlowPath.swift */; };
 		4BF3C89C2E0A451A00872BEC /* ProfileIconOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3C89A2E0A451A00872BEC /* ProfileIconOverlay.swift */; };
 		4BF3C8A02E0B43B800872BEC /* ProfileImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3C89F2E0B43B800872BEC /* ProfileImageLoader.swift */; };
 		4BFA57052DFCB36400D69E6C /* BroWagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA57032DFCB36400D69E6C /* BroWagerApp.swift */; };
@@ -65,9 +81,21 @@
 		4B2D15942DFCB3CB0068E5E4 /* JoinPartyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinPartyView.swift; sourceTree = "<group>"; };
 		4B2D15952DFCB3CB0068E5E4 /* LeaderBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
 		4B2D15962DFCB3CB0068E5E4 /* PartyLobbyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyLobbyView.swift; sourceTree = "<group>"; };
+		4B2D15982DFCB3CB0068E5E4 /* BaseballView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseballView.swift; sourceTree = "<group>"; };
+		4B2D15992DFCB3CB0068E5E4 /* BasketballView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketballView.swift; sourceTree = "<group>"; };
+		4B2D159A2DFCB3CB0068E5E4 /* FootballView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FootballView.swift; sourceTree = "<group>"; };
+		4B2D159B2DFCB3CB0068E5E4 /* HockeyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HockeyView.swift; sourceTree = "<group>"; };
+		4B2D159C2DFCB3CB0068E5E4 /* SoccerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoccerView.swift; sourceTree = "<group>"; };
+		4B2D15AF2DFCB3CE0068E5E4 /* Baseball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Baseball.swift; sourceTree = "<group>"; };
+		4B2D15B02DFCB3CE0068E5E4 /* Basketball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basketball.swift; sourceTree = "<group>"; };
+		4B2D15B12DFCB3CE0068E5E4 /* Emails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emails.swift; sourceTree = "<group>"; };
+		4B2D15B22DFCB3CE0068E5E4 /* Hockey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hockey.swift; sourceTree = "<group>"; };
+		4B2D15B52DFCB3CE0068E5E4 /* Soccer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soccer.swift; sourceTree = "<group>"; };
 		4B56EEED2E15B20D0088E513 /* HostBetGenerationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostBetGenerationView.swift; sourceTree = "<group>"; };
 		4B56EEF12E15ECBA0088E513 /* PartyChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyChatView.swift; sourceTree = "<group>"; };
 		4B56EEF42E1B50DB0088E513 /* DirectMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMessageView.swift; sourceTree = "<group>"; };
+		4B56EEFA2E1C99D80088E513 /* PoliticsBetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticsBetView.swift; sourceTree = "<group>"; };
+		4B56EEFC2E1C99E20088E513 /* LifeEventsBetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeEventsBetView.swift; sourceTree = "<group>"; };
 		4B56EF002E1C9F8F0088E513 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		4B56EF022E1C9F960088E513 /* RootWithSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWithSidebarView.swift; sourceTree = "<group>"; };
 		4B5D5CDD2E0C9DA7000B05AC /* BroWager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BroWager.entitlements; sourceTree = "<group>"; };
@@ -82,21 +110,30 @@
 		4B6AE10D2E05CF5500656DF3 /* InviteFriendsToPartyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendsToPartyView.swift; sourceTree = "<group>"; };
 		4B6AE10F2E05CF5C00656DF3 /* InviteOthersToPartyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteOthersToPartyView.swift; sourceTree = "<group>"; };
 		4B6AE1112E05CF6200656DF3 /* PartyInvitesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyInvitesView.swift; sourceTree = "<group>"; };
-		4B6EE7072E2EDBAC00A82153 /* ContestBetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestBetView.swift; sourceTree = "<group>"; };
-		4B6EE7092E2EDBB300A82153 /* NormalBetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalBetView.swift; sourceTree = "<group>"; };
-		4B6EE70B2E2EDBBB00A82153 /* TimedBetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedBetView.swift; sourceTree = "<group>"; };
 		4B7C5B832DFFB05400AE8600 /* BetTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetTypeView.swift; sourceTree = "<group>"; };
+		4B7C5B852DFFB50000AE8600 /* CustomBetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBetView.swift; sourceTree = "<group>"; };
 		4BAB2E6C2DD66AE9004181C0 /* BroWager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BroWager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BDD17852E01F13F00CD117D /* SportSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportSelectionView.swift; sourceTree = "<group>"; };
 		4BDD17892E01F37200CD117D /* MyPartiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPartiesView.swift; sourceTree = "<group>"; };
 		4BDD178B2E01F3F400CD117D /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupView.swift; sourceTree = "<group>"; };
+		4BDD178F2E01F53F00CD117D /* GameEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEventView.swift; sourceTree = "<group>"; };
 		4BDD17912E01F65300CD117D /* PartyDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyDetailsView.swift; sourceTree = "<group>"; };
 		4BDD17962E01FB6B00CD117D /* PartyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyModels.swift; sourceTree = "<group>"; };
 		4BDD17982E01FB7400CD117D /* UserModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModels.swift; sourceTree = "<group>"; };
 		4BF3C88D2E088BAA00872BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF3C8902E08C73100872BEC /* LoggedInPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedInPath.swift; sourceTree = "<group>"; };
+		4BF3C8932E08C8D400872BEC /* Sport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
+		4BF3C8952E08C95C00872BEC /* BetTypePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetTypePath.swift; sourceTree = "<group>"; };
+		4BF3C8972E0A2BEA00872BEC /* BetFlowPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetFlowPath.swift; sourceTree = "<group>"; };
 		4BF3C89A2E0A451A00872BEC /* ProfileIconOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileIconOverlay.swift; sourceTree = "<group>"; };
 		4BF3C89F2E0B43B800872BEC /* ProfileImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImageLoader.swift; sourceTree = "<group>"; };
 		4BFA57032DFCB36400D69E6C /* BroWagerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroWagerApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		843A115A2E30084C00EA08F0 /* Services */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Services; sourceTree = "<group>"; };
+		845B0E8E2E306A2900462BF5 /* TimedBet */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TimedBet; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4BAB2E692DD66AE9004181C0 /* Frameworks */ = {
@@ -152,11 +189,13 @@
 		4B2D158E2DFCB3CB0068E5E4 /* Bet Management */ = {
 			isa = PBXGroup;
 			children = (
-				4B6EE70B2E2EDBBB00A82153 /* TimedBetView.swift */,
-				4B6EE7092E2EDBB300A82153 /* NormalBetView.swift */,
-				4B6EE7072E2EDBAC00A82153 /* ContestBetView.swift */,
+				4B56EEFC2E1C99E20088E513 /* LifeEventsBetView.swift */,
+				4B56EEFA2E1C99D80088E513 /* PoliticsBetView.swift */,
+				4B7C5B852DFFB50000AE8600 /* CustomBetView.swift */,
 				4B7C5B832DFFB05400AE8600 /* BetTypeView.swift */,
 				4BDD17892E01F37200CD117D /* MyPartiesView.swift */,
+				4BDD17852E01F13F00CD117D /* SportSelectionView.swift */,
+				4BDD178F2E01F53F00CD117D /* GameEventView.swift */,
 			);
 			path = "Bet Management";
 			sourceTree = "<group>";
@@ -194,13 +233,27 @@
 			path = PartyManagement;
 			sourceTree = "<group>";
 		};
+		4B2D159D2DFCB3CB0068E5E4 /* SportsViews */ = {
+			isa = PBXGroup;
+			children = (
+				4B2D15982DFCB3CB0068E5E4 /* BaseballView.swift */,
+				4B2D15992DFCB3CB0068E5E4 /* BasketballView.swift */,
+				4B2D159A2DFCB3CB0068E5E4 /* FootballView.swift */,
+				4B2D159B2DFCB3CB0068E5E4 /* HockeyView.swift */,
+				4B2D159C2DFCB3CB0068E5E4 /* SoccerView.swift */,
+			);
+			path = SportsViews;
+			sourceTree = "<group>";
+		};
 		4B2D159E2DFCB3CB0068E5E4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				845B0E8E2E306A2900462BF5 /* TimedBet */,
 				4BF3C89B2E0A451A00872BEC /* Shared */,
 				4B2D158E2DFCB3CB0068E5E4 /* Bet Management */,
 				4B2D15922DFCB3CB0068E5E4 /* Credentials */,
 				4B2D15972DFCB3CB0068E5E4 /* PartyManagement */,
+				4B2D159D2DFCB3CB0068E5E4 /* SportsViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,8 +261,10 @@
 		4B2D15B72DFCB3CE0068E5E4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4BF3C8912E08C73100872BEC /* Navigation */,
 				4BDAE8842E020D8400101E4A /* Miscellaneous */,
 				4BDD17952E01F73600CD117D /* Supabase */,
+				4BDD17932E01F72800CD117D /* Sports */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -217,6 +272,7 @@
 		4B2D15C42DFCB8600068E5E4 /* BroWager */ = {
 			isa = PBXGroup;
 			children = (
+				843A115A2E30084C00EA08F0 /* Services */,
 				4BF3C88D2E088BAA00872BEC /* Info.plist */,
 				4B5D5CDD2E0C9DA7000B05AC /* BroWager.entitlements */,
 				4BFA57042DFCB36400D69E6C /* App */,
@@ -260,8 +316,20 @@
 			isa = PBXGroup;
 			children = (
 				4B5D5CE92E0E56D5000B05AC /* BetType.swift */,
+				4B2D15B12DFCB3CE0068E5E4 /* Emails.swift */,
 			);
 			path = Miscellaneous;
+			sourceTree = "<group>";
+		};
+		4BDD17932E01F72800CD117D /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				4B2D15AF2DFCB3CE0068E5E4 /* Baseball.swift */,
+				4B2D15B02DFCB3CE0068E5E4 /* Basketball.swift */,
+				4B2D15B22DFCB3CE0068E5E4 /* Hockey.swift */,
+				4B2D15B52DFCB3CE0068E5E4 /* Soccer.swift */,
+			);
+			path = Sports;
 			sourceTree = "<group>";
 		};
 		4BDD17952E01F73600CD117D /* Supabase */ = {
@@ -278,6 +346,17 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BF3C8912E08C73100872BEC /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4BF3C8972E0A2BEA00872BEC /* BetFlowPath.swift */,
+				4BF3C8952E08C95C00872BEC /* BetTypePath.swift */,
+				4BF3C8932E08C8D400872BEC /* Sport.swift */,
+				4BF3C8902E08C73100872BEC /* LoggedInPath.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		4BF3C89B2E0A451A00872BEC /* Shared */ = {
@@ -314,6 +393,10 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				843A115A2E30084C00EA08F0 /* Services */,
+				845B0E8E2E306A2900462BF5 /* TimedBet */,
+			);
 			name = BroWager;
 			packageProductDependencies = (
 				4B47AAFB2DF10F8A00DFB76F /* OpenAISwift */,
@@ -341,7 +424,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4BAB2E672DD66AE9004181C0 /* Build configuration list for PBXProject "BroWager copy" */;
+			buildConfigurationList = 4BAB2E672DD66AE9004181C0 /* Build configuration list for PBXProject "BroWager" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -381,42 +464,58 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B6AE10C2E05BAFF00656DF3 /* FriendsView.swift in Sources */,
+				4B2D15B92DFCB3CE0068E5E4 /* Basketball.swift in Sources */,
 				4BF3C8A02E0B43B800872BEC /* ProfileImageLoader.swift in Sources */,
 				4B56EEF52E1B50DB0088E513 /* DirectMessageView.swift in Sources */,
 				4B6AE1122E05CF6200656DF3 /* PartyInvitesView.swift in Sources */,
-				4B6EE7082E2EDBAC00A82153 /* ContestBetView.swift in Sources */,
 				4BDD17992E01FB7400CD117D /* UserModels.swift in Sources */,
 				4B2D15A92DFCB3CB0068E5E4 /* PartyLobbyView.swift in Sources */,
 				4B56EF012E1C9F8F0088E513 /* SidebarView.swift in Sources */,
 				4B2D15882DFCB3C60068E5E4 /* Instrument.swift in Sources */,
+				4B2D15BE2DFCB3CE0068E5E4 /* Soccer.swift in Sources */,
+				4B2D15AB2DFCB3CB0068E5E4 /* BasketballView.swift in Sources */,
 				4B2D15A82DFCB3CB0068E5E4 /* LeaderBoardView.swift in Sources */,
 				4B7C5B842DFFB05400AE8600 /* BetTypeView.swift in Sources */,
+				4B2D15B82DFCB3CE0068E5E4 /* Baseball.swift in Sources */,
+				4B2D15AA2DFCB3CB0068E5E4 /* BaseballView.swift in Sources */,
+				4B2D15AC2DFCB3CB0068E5E4 /* FootballView.swift in Sources */,
+				4BF3C8922E08C73100872BEC /* LoggedInPath.swift in Sources */,
 				4B6AE1082E05BAF400656DF3 /* AddFriendView.swift in Sources */,
 				4B2D15A62DFCB3CB0068E5E4 /* CreatePartyView.swift in Sources */,
 				4B6AE10A2E05BAF900656DF3 /* FriendRequestsView.swift in Sources */,
+				4B2D15BB2DFCB3CE0068E5E4 /* Hockey.swift in Sources */,
 				4B5D5CE12E0CB5A4000B05AC /* SupabaseEnvironmentKey.swift in Sources */,
 				4BDD17972E01FB6B00CD117D /* PartyModels.swift in Sources */,
 				4B6AE1062E03579D00656DF3 /* ChooseUsernameView.swift in Sources */,
-				4B6EE70C2E2EDBBB00A82153 /* TimedBetView.swift in Sources */,
-				4B6EE70A2E2EDBB300A82153 /* NormalBetView.swift in Sources */,
+				4B56EEFD2E1C99E20088E513 /* LifeEventsBetView.swift in Sources */,
 				4B56EF032E1C9F960088E513 /* RootWithSidebarView.swift in Sources */,
+				4B56EEFB2E1C99D80088E513 /* PoliticsBetView.swift in Sources */,
 				4BDD17922E01F65400CD117D /* PartyDetailsView.swift in Sources */,
 				4B2D15A52DFCB3CB0068E5E4 /* ProfileView.swift in Sources */,
 				4B5D5CE82E0CD767000B05AC /* RootView.swift in Sources */,
 				4B6AE10E2E05CF5500656DF3 /* InviteFriendsToPartyView.swift in Sources */,
+				4BF3C8982E0A2BEA00872BEC /* BetFlowPath.swift in Sources */,
 				4B2D157C2DFCB3B90068E5E4 /* SupabaseClient+Extensions.swift in Sources */,
+				4BDD17902E01F53F00CD117D /* GameEventView.swift in Sources */,
+				4B2D15AE2DFCB3CB0068E5E4 /* SoccerView.swift in Sources */,
 				4BFA57052DFCB36400D69E6C /* BroWagerApp.swift in Sources */,
+				4BF3C8962E08C95C00872BEC /* BetTypePath.swift in Sources */,
 				4BDD178C2E01F3F400CD117D /* LoginSignupView.swift in Sources */,
+				4B2D15AD2DFCB3CB0068E5E4 /* HockeyView.swift in Sources */,
+				4BF3C8942E08C8D400872BEC /* Sport.swift in Sources */,
+				4B2D15BA2DFCB3CE0068E5E4 /* Emails.swift in Sources */,
 				4B2D15812DFCB3BD0068E5E4 /* ProfileManager.swift in Sources */,
 				4B2D15A72DFCB3CB0068E5E4 /* JoinPartyView.swift in Sources */,
 				4B56EEF22E15ECBA0088E513 /* PartyChatView.swift in Sources */,
 				4B56EEEE2E15B2140088E513 /* HostBetGenerationView.swift in Sources */,
 				4B5D5CE62E0CD758000B05AC /* SessionManager.swift in Sources */,
+				4BDD17862E01F13F00CD117D /* SportSelectionView.swift in Sources */,
 				4BF3C89C2E0A451A00872BEC /* ProfileIconOverlay.swift in Sources */,
 				4B6AE1102E05CF5C00656DF3 /* InviteOthersToPartyView.swift in Sources */,
 				4B5D5CEA2E0E56D5000B05AC /* BetType.swift in Sources */,
 				4BDD178A2E01F37200CD117D /* MyPartiesView.swift in Sources */,
 				4B2D15A42DFCB3CB0068E5E4 /* LoggedInView.swift in Sources */,
+				4B7C5B862DFFB50000AE8600 /* CustomBetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +683,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BroWager/Preview Content\"";
+				DEVELOPMENT_TEAM = NUF3TATR3W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BroWager/Info.plist;
@@ -609,7 +709,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4BAB2E672DD66AE9004181C0 /* Build configuration list for PBXProject "BroWager copy" */ = {
+		4BAB2E672DD66AE9004181C0 /* Build configuration list for PBXProject "BroWager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4BAB2E782DD66AEA004181C0 /* Debug */,

@@ -18,7 +18,7 @@
                BlueprintIdentifier = "4BAB2E6B2DD66AE9004181C0"
                BuildableName = "BroWager.app"
                BlueprintName = "BroWager"
-               ReferencedContainer = "container:BroWager copy.xcodeproj">
+               ReferencedContainer = "container:BroWager.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "4BAB2E6B2DD66AE9004181C0"
             BuildableName = "BroWager.app"
             BlueprintName = "BroWager"
-            ReferencedContainer = "container:BroWager copy.xcodeproj">
+            ReferencedContainer = "container:BroWager.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "4BAB2E6B2DD66AE9004181C0"
             BuildableName = "BroWager.app"
             BlueprintName = "BroWager"
-            ReferencedContainer = "container:BroWager copy.xcodeproj">
+            ReferencedContainer = "container:BroWager.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

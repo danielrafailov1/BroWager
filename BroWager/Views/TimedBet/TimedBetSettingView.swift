@@ -12,6 +12,8 @@ struct TimedBetSettingView: View {
         "Bite into an ice cream without making a face",
         "Try a food you've never had before",
         "Eat something spicy without drinking water for 5 minutes",
+        "Try a food you've never had before",
+        "Try a food you've never had before",
     ]
     var onConfirm: ((String) -> Void)? = nil
     var body: some View {
@@ -55,6 +57,9 @@ struct TimedBetSettingView: View {
                     }
                 }
                 HStack() {
+                    TimerSetView(title: "days",
+                                 range: 0...7,
+                                 binding: $seconds)
                     TimerSetView(title: "hours",
                                 range: 0...23,
                                  binding: $hours)
@@ -64,10 +69,9 @@ struct TimedBetSettingView: View {
                     TimerSetView(title: "sec",
                                 range: 0...59,
                                  binding: $seconds)
-                        
-                        .padding(.all, 10)
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+
                     }
+                .frame(height: 100)
                 Button(action: {
                     if let bet = selectedBet {
                         onConfirm?(bet)
@@ -99,5 +103,11 @@ struct TimedBetSettingView: View {
             )
             
         }
+    }
+}
+
+#Preview {
+    NavigationView {
+        TimedBetSettingView()
     }
 }
